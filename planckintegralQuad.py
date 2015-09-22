@@ -24,4 +24,4 @@ if __name__ == '__main__':
     integralQuad=integrate.quad(
         argIntPlanckFunction,0,np.pi/2)
     print "Valor de integral calculada \
-        (mediante .quad):", integralQuad[0]
+(mediante .quad):", integralQuad[0]

@@ -63,7 +63,7 @@ def planckIntegral(tolerancia):
 
 if __name__ == '__main__':
     tol=input("Ingrese tolerancia para calculo \
-        de integral:")
+de integral:")
     print "Valor de integral calculada:",
     print planckIntegral(tol)
     print "Valor real:", np.pi**4/15

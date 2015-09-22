@@ -31,5 +31,5 @@ if __name__ == '__main__':
         wavelen.append(data[i][0])
         spectra.append(data[i][1])
     print "Luminosidad total del Sol \
-        (calculada mediante .trapz):",
+(calculada mediante .trapz):",
     print luminosityTrapz(wavelen,spectra)

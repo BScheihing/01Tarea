@@ -28,9 +28,9 @@ c=const.c.value
 C=2*np.pi*h*((kB*T/h)**4)/(c**2)
 P=C*planckIntegral(10**(-12))
 print "Energia por unidad de area por unidad \
-    de tiempo emitida",
+de tiempo emitida",
 print "por un cuerpo negro con la temperatura \
-    efectiva del Sol:",
+efectiva del Sol:",
 print P, "[W/(s*m^2)]"
 
 #Radio efectivo del Sol
